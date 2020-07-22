@@ -16,22 +16,41 @@ Patientsinfo Array_PatientsInformation[]=
 
 
 }
-getinputs()
+getinputs(flaot inputserialnumber,int slectedpatientage,float bpm, float spo2, float resRate )
 {
+	
+	
 /*read arrayofstructure*/
-	for(i=0;i<=patientscount;i++)
-	{
-	ReadVitalsArrayofstruct();
+	//for(i=0;i<=patientscount;i++)
+	//{
+	//ReadVitalsArrayofstruct()
+	//{
+	
+	
+	//};
+	
+	
 
 }
 
 
 vitalsAreOk()
 {
-getinput();
+	
+int patientscount = sizeof(Array_PatientsInformation);	
+	//global variables to hold current patients info//
+	
+	
+	
+	/*read arrayofstructure*/
+for(i=0;i<=patientscount;i++)
+{
+getinput(&currentpateintsinfoarray[i]);
 
 validateinputs();
 
 validationreferncevalues();
 
 resultoutput()
+}
+};
