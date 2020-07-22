@@ -1,12 +1,37 @@
 
-bool vitalsAreOk(float bpm, float spo2, float respRate) {
-  int i;
-  if(bpm < 70 || bpm > 150) {
-    return false;
-  } else if(spo2 < 80) {
-    return false;
-  } else if(respRate < 30 || respRate > 60) {
-    return false;
-  }
-  return true;
+struct Patientsinfo
+{float pantentsserialnum;
+	int age;
+	float bpm;
+	float spo2;
+	float resRate;
+}Patientsinfo
+
+Patientsinfo Array_PatientsInformation[]=
+{
+	{pantentsserialnum, age, bpm;spo2,resRate},
+	{pantentsserialnum, age, bpm;spo2,resRate},
+	{pantentsserialnum, age, bpm;spo2,resRate},
+	{pantentsserialnum, age, bpm;spo2,resRate},
+
+
 }
+getinputs()
+{
+/*read arrayofstructure*/
+	for(i=0;i<=patientscount;i++)
+	{
+	ReadVitalsArrayofstruct();
+
+}
+
+
+vitalsAreOk()
+{
+getinput();
+
+validateinputs();
+
+validationreferncevalues();
+
+resultoutput()
